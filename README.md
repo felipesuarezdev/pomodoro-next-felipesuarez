@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍅 Next.js Pomodoro Timer
 
-## Getting Started
+A modern, minimalist Pomodoro Timer application built with Next.js and Tailwind CSS. This application helps you manage your time using the Pomodoro Technique, alternating between focused work sessions and breaks.
 
-First, run the development server:
+## 🌟 Features
 
+- ⏰ Customizable work and break timers
+- 🎨 Modern, minimalist interface
+- 🔄 Automatic switch between work and break modes
+- 🔊 Audio notifications
+- 📱 Fully responsive design
+- ⚡ Intuitive controls
+- 🎯 Focus-oriented design
+
+## 🛠️ Built With
+
+- [Next.js 14](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Vercel](https://vercel.com/) (Deployment)
+
+## 📋 Prerequisites
+
+- Node.js 18.17 or later
+- npm or yarn
+- Git
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/pomodoro-next.git
+```
+
+2. **Navigate to the project directory**
+```bash
+cd pomodoro-next
+```
+
+3. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+```
+
+4. **Run the development server**
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. **Open your browser**
+Navigate to `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🏗️ Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+pomodoro-next/
+├── src/
+│   ├── app/
+│   │   ├── layout.js
+│   │   └── page.js
+│   └── components/
+│       └── PomodoroTimer.js
+├── public/
+│   └── notification.mp3
+├── .prettierrc
+├── tailwind.config.js
+└── README.md
+```
 
-## Learn More
+## 📦 Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Runs the development server
+- `npm run build` - Builds the application for production
+- `npm start` - Runs the built application
+- `npm run lint` - Runs ESLint
+- `npm run format` - Formats code with Prettier
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is configured for deployment on Vercel. To deploy:
 
-## Deploy on Vercel
+1. Push your code to GitHub
+2. Import your repository in Vercel
+3. Deploy!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Development Workflow
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Create a new branch for your feature/fix
+2. Make your changes
+3. Run tests and linting
+4. Create a Pull Request
+5. Wait for review and merge
+
+## 🎯 GitHub Projects
+
+The project is managed using GitHub Projects. You can find the board [here](https://github.com/felipesuarezdev/pomodoro-next-felipesuarez).
+
+Our workflow includes these columns:
+- 📋 Backlog
+- 🎯 To Do
+- 🏗️ In Progress
+- 👀 In Review
+- ✅ Done
+
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 🌟 Acknowledgments
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel Platform](https://vercel.com/)
